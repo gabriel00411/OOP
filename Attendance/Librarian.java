@@ -12,7 +12,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class LibrarianLogin extends JFrame {
+public class Librarian extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField UsernameField;
@@ -25,7 +25,7 @@ public class LibrarianLogin extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					LibrarianLogin frame = new LibrarianLogin();
+					Librarian frame = new Librarian();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -37,7 +37,7 @@ public class LibrarianLogin extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public LibrarianLogin() {
+	public Librarian() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 458, 440);
 		contentPane = new JPanel();
