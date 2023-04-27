@@ -12,7 +12,7 @@ import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class AdminLogin extends JFrame {
+public class Admin extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField UsernameText;
@@ -27,7 +27,7 @@ public class AdminLogin extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					AdminLogin frame = new AdminLogin();
+					Admin frame = new Admin();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -39,7 +39,7 @@ public class AdminLogin extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public AdminLogin() {
+	public Admin() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 459, 421);
 		contentPane = new JPanel();
