@@ -73,9 +73,9 @@ public class Admin extends JFrame {
 		JButton btnNewButton = new JButton("LOGIN");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if(UsernameText.getText().equals("Admin_01") && PasswordText.getText().equals("AdminOne")|| 
-						(UsernameText.getText().equals("Admin_02") && PasswordText.getText().equals("AdminTwo") || 
-								(UsernameText.getText().equals("Admin_03") && PasswordText.getText().equals("AdminThree"))))
+				if(UsernameText.getText().equals("Admin01") && PasswordText.getText().equals("AdminOne")|| 
+						(UsernameText.getText().equals("Admin02") && PasswordText.getText().equals("AdminTwo") || 
+								(UsernameText.getText().equals("Admin03") && PasswordText.getText().equals("AdminThree"))))
 				{JOptionPane.showMessageDialog(null, "Welcome To National University!");
 				}
 				else{StatusLabel.setText("Username and Password does not Match!");
