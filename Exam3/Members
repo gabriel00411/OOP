@@ -44,7 +44,7 @@ public class Members extends JFrame {
 		JButton btnNewButton = new JButton("");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				SecondPage contentPane = new SecondPage();
+				MemberMarfal contentPane = new MemberMarfal();
 				contentPane.setVisible(true);
 				dispose();
 			}
