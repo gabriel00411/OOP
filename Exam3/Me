@@ -44,7 +44,7 @@ public class me extends JFrame {
 		JButton btnNewButton = new JButton("");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				MemberMarfal contentPane = new MemberMarfal();
+				SecondPage contentPane = new SecondPage();
 				contentPane.setVisible(true);
 				dispose();
 			}
