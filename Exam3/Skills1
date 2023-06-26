@@ -10,7 +10,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Skills extends JFrame {
+public class Skills1 extends JFrame {
 
 	private JPanel contentPane;
 
@@ -21,7 +21,7 @@ public class Skills extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Skills frame = new Skills();
+					Skills1 frame = new Skills1();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -33,7 +33,7 @@ public class Skills extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Skills() {
+	public Skills1() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100,1295, 745);
 		contentPane = new JPanel();
@@ -45,7 +45,7 @@ public class Skills extends JFrame {
 		JButton btnNewButton = new JButton("");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				MemberMarfal contentPane = new MemberMarfal();
+				SecondPage contentPane = new SecondPage();
 				contentPane.setVisible(true);
 				dispose();
 			}
